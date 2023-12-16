@@ -274,7 +274,7 @@ button:hover span::before, button:hover span::after{
 }
 
 .project-link:hover {
-  color: rgba(216, 220, 224, 0.774); /* Darker shade on hover */
+  color: d0d0d0bb; /* Darker shade on hover */
 }
 
 .projects-container {
