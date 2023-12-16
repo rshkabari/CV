@@ -288,46 +288,7 @@ body {
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
   
-  .screenshot {
-    max-width: 600px; /* Adjust the max width as needed */
-    max-height: 400px; /* Adjust the max height as needed */
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  .screenshot-container {
-    position: center;
-    width: 50%;
-    margin-left: auto;
-  }
-  
-  .screenshot img {
-    max-width: 100%;
-    height: auto; /* Maintains aspect ratio */
-  }
-  
-  .project-details {
-    position: center;
-    width: 50%;
-    margin-right: auto;
-  }
-  .project-media {
-    flex: 1;
-    text-align: center; /* Aligns the screenshot and arrows to center */
-  }
-  
-  .navigation {
-    text-align: center; /* Center the navigation arrows */
-    margin-top: 10px;
-  }
-  
-  .navigation span {
-    cursor: pointer;
-    padding: 10px; /* Size of the clickable area */
-    margin: 0 5px; /* Space between arrows */
-    color: #fff; /* Color of arrows */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for arrows */
-    display: inline-block; /* Display arrows inline */
-  }
+
   
   a.btn {
     display: inline-block;
