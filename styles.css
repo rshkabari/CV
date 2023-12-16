@@ -275,7 +275,7 @@ button:hover span::before, button:hover span::after{
 }
 
 .project-link:hover {
-  color: d0d0d0bb; /* Darker shade on hover */
+  color: #d0d0d0bb; /* Darker shade on hover */
 }
 
 .projects-container {
