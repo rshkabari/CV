@@ -231,51 +231,51 @@ body {
   
   
   
-  .project-card {
-    border: 1px solid #ccc;
-    margin: 15px;
-    overflow: hidden; /* Ensures that the image doesn't overflow the card */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
-    cursor: pointer;
-    flex: 0 1 calc(33.333% - 20px);
-    margin: 10px;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-5px); /* Moves the card up slightly on hover */
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Adds shadow to lift the card */
-  }
-  
-  .project-image {
-    width: 100%;
-    display: block;
-  }
-  
-  .project-info {
-    padding: 15px;
-    text-align: center;
-  }
-  
-  .project-title {
-    margin-top: 10px;
-    font-size: 1.5em;
-  }
-  
-  .project-description {
-    font-size: 0.9em;
-    margin: 10px 0;
-  }
-  
-  .project-link {
-    text-decoration: none;
-    color: #007bff; /* Bootstrap primary color */
-    background-color: transparent;
-    transition: color 0.3s ease; /* Smooth transition for hover effect */
-  }
-  
-  .project-link:hover {
-    color: #0056b3; /* Darker shade on hover */
-  }
+.project-card {
+  border: 1px solid #ccc;
+  margin: 15px;
+  overflow: hidden; /* Ensures that the image doesn't overflow the card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  cursor: pointer;
+  flex: 0 1 calc(33.333% - 20px);
+  margin: 10px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px); /* Moves the card up slightly on hover */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Adds shadow to lift the card */
+}
+
+.project-image {
+  width: 100%;
+  display: block;
+}
+
+.project-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.project-title {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.project-description {
+  font-size: 0.9em;
+  margin: 10px 0;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #007bff; /* Bootstrap primary color */
+  background-color: transparent;
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.project-link:hover {
+  color: #0056b3; /* Darker shade on hover */
+}
   
   
   [data-aos] {
