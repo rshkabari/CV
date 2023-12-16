@@ -277,6 +277,10 @@ button:hover span::before, button:hover span::after{
   color: #0056b3; /* Darker shade on hover */
 }
 
+[data-aos] {
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
 a.btn {
   display: inline-block;
   padding: 10px 20px;
