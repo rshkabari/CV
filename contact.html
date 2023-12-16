@@ -33,15 +33,25 @@
         <div class="main-content">
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
             <div class="content-box">
-                <h1>Contact</h1>
-                <p>This is where you'll write about yourself. Include your background, what you do, and any other relevant information.</p>
-                <!-- Add more content as needed -->
+                  <div class="contact-section">
+                    <div class="contact-info">
+                      <h2>Contact</h2>
+                      <p>rshkabari@gmail.com/p>
+                      <div class="social-links">
+                        <a href="https://github.com/rshkabari">GitHub</a>
+                      </div>
+                    </div>
+                    <form class="contact-form" action="contact.php" method="POST">
+                      <input type="text" name="name" placeholder="Name" required>
+                      <input type="email" name="email" placeholder="E-mail" required>
+                      <input type="text" name="website" placeholder="Website URL">
+                      <textarea name="message" placeholder="Your Message" required></textarea>
+                      <button type="submit">Send</button>
+                    </form>
+                  </div>
             </div>
             </div>
         </div>
-
-
-
 
         <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -68,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <script>
             AOS.init();
         </script>
+
 
     </body>
     </html>
