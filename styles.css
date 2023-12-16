@@ -238,6 +238,7 @@ button:hover span::before, button:hover span::after{
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
   cursor: pointer;
   flex: 0 1 calc(33.333% - 20px);
+  max-width: 1000px;
   margin: 10px;
 }
 
