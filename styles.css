@@ -268,13 +268,13 @@ button:hover span::before, button:hover span::after{
 
 .project-link {
   text-decoration: none;
-  color: #007bff; /* Bootstrap primary color */
+  color: #d0d0d0; /* Bootstrap primary color */
   background-color: transparent;
   transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .project-link:hover {
-  color: #0056b3; /* Darker shade on hover */
+  color: #d0d0d0bb; /* Darker shade on hover */
 }
 
 .projects-container {
