@@ -254,7 +254,7 @@ button:hover span::before, button:hover span::after{
   overflow: hidden; /* Ensures that the image doesn't overflow the card */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
   cursor: pointer;
-  flex: 0 1 calc(33.333% - 20px);
+  flex: 0 1 calc(25% - 20px);
   max-width: 800px;
   margin: 10px;
 }
