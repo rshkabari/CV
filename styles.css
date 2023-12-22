@@ -150,14 +150,14 @@ li:hover::after {
   border-radius: 10px;
   max-width: calc(100% - 40px); /* Adjust max-width for better responsiveness */
   box-shadow: -20px 30px 15px 0 rgba(0, 0, 0, .5), 15px 30px 15px 0 rgba(0, 0, 0, .4);
-
+  margin: auto;
 }
 
 .content-box-about {
   background-color: rgba(0, 0, 0, 0.9);
   padding: 20px;
   border-radius: 10px;
-  max-width: calc(100% - 200px); /* Adjust max-width for better responsiveness */
+  max-width: calc(100% - 400px); /* Adjust max-width for better responsiveness */
   box-shadow: -20px 30px 15px 0 rgba(0, 0, 0, .5), 15px 30px 15px 0 rgba(0, 0, 0, .4);
 
 }
